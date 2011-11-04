@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-qpxqtx
-Version:	20111102
+Version:	20111104
 Release:	1
 Summary:	TeXLive qpxqtx package
 Group:		Publishing
@@ -75,6 +75,7 @@ TeXLive qpxqtx package.
 %doc %{_texmfdistdir}/doc/fonts/qpxqtx/qtxtest.tex
 %doc %{_texmfdistdir}/doc/fonts/qpxqtx/t01tst.tex
 %doc %{_texmfdistdir}/doc/fonts/qpxqtx/t02tst.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -85,3 +86,5 @@ TeXLive qpxqtx package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

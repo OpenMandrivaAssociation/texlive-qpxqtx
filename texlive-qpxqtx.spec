@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-qpxqtx
 Version:	20111104
-Release:	2
+Release:	3
 Summary:	TeXLive qpxqtx package
 Group:		Publishing
 URL:		http://tug.org/texlive

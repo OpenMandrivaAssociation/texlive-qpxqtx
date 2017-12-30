@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-qpxqtx
-Version:	20111104
-Release:	11
+Version:	20171115
+Release:	1
 Summary:	TeXLive qpxqtx package
 Group:		Publishing
 URL:		http://tug.org/texlive

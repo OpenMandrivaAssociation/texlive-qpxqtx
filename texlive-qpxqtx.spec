@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-qpxqtx
 Version:	20171115
 Release:	1
@@ -31,41 +25,10 @@ TeXLive qpxqtx package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qpxbmi.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qpxbmia.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qpxmi.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qpxmia.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qtxbmi.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qtxbmia.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qtxmi.tfm
-%{_texmfdistdir}/fonts/tfm/public/qpxqtx/qtxmia.tfm
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qpxbmi.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qpxbmia.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qpxmi.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qpxmia.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qtxbmi.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qtxbmia.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qtxmi.vf
-%{_texmfdistdir}/fonts/vf/public/qpxqtx/qtxmia.vf
-%{_texmfdistdir}/tex/generic/qpxqtx/amspbold.tex
-%{_texmfdistdir}/tex/generic/qpxqtx/amsqpx.def
-%{_texmfdistdir}/tex/generic/qpxqtx/amsqpx.tex
-%{_texmfdistdir}/tex/generic/qpxqtx/amsqtx.def
-%{_texmfdistdir}/tex/generic/qpxqtx/amsqtx.tex
-%{_texmfdistdir}/tex/generic/qpxqtx/amstbold.tex
-%{_texmfdistdir}/tex/generic/qpxqtx/qpxmath.sty
-%{_texmfdistdir}/tex/generic/qpxqtx/qpxmath.tex
-%{_texmfdistdir}/tex/generic/qpxqtx/qtxmath.sty
-%{_texmfdistdir}/tex/generic/qpxqtx/qtxmath.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/00README
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/p01tst.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/p02tst.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/qpxsymb.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/qpxtest.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/qtxsymb.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/qtxtest.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/t01tst.tex
-%doc %{_texmfdistdir}/doc/fonts/qpxqtx/t02tst.tex
+%{_texmfdistdir}/fonts/tfm/public/qpxqtx
+%{_texmfdistdir}/fonts/vf/public/qpxqtx
+%{_texmfdistdir}/tex/generic/qpxqtx
+%doc %{_texmfdistdir}/doc/fonts/qpxqtx
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,17 +39,3 @@ TeXLive qpxqtx package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
-+ Revision: 755565
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
-+ Revision: 719421
-- texlive-qpxqtx
-- texlive-qpxqtx
-- texlive-qpxqtx
-- texlive-qpxqtx
-

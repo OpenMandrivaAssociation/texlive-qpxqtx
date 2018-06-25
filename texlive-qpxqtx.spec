@@ -1,5 +1,5 @@
 Name:		texlive-qpxqtx
-Version:	20171115
+Version:	20180303
 Release:	1
 Summary:	TeXLive qpxqtx package
 Group:		Publishing

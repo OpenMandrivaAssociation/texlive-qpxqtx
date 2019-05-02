@@ -1,6 +1,6 @@
 Name:		texlive-qpxqtx
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	TeXLive qpxqtx package
 Group:		Publishing
 URL:		http://tug.org/texlive
